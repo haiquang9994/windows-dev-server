@@ -1,0 +1,14 @@
+# .ssh
+.ssh/*
+
+# mysql
+mysql
+
+# nginx
+nginx/logs/*
+nginx/temp/*
+nginx/vhosts/*
+!nginx/vhosts/default.conf
+
+# gitkeep
+!.gitkeep
