@@ -6,13 +6,14 @@
         "list": [
             {
                 "guid": "{00000000-0000-0000-ba54-000000000001}",
-                "commandline": "%UserProfile%/scoop/apps/git/current/bin/bash.exe",
-                "cursorShape": "bar",
-                "fontSize": 13,
-                "icon": "D:/Server/giticon.png",
-                "name": "Git Bash",
-                "padding": "0, 0, 0, 0",
-                "startingDirectory": "D:/Developer/www"
+                "closeOnExit" : true,
+                "commandline" : "%UserProfile%/scoop/apps/git/current/bin/bash.exe",
+                "fontFace" : "Fira Code Retina",
+                "fontSize" : 12,
+                "icon" : "D:/Server/giticon.png",
+                "name" : "Git Bash",
+                "padding" : "0, 0, 0, 0",
+                "startingDirectory" : "D:/Developer/www"
             }
         ]
     },
