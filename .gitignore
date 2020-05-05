@@ -8,6 +8,7 @@ mysql
 nginx/logs/*
 nginx/temp/*
 nginx/vhosts/*
+nginx/ssl/*
 !nginx/vhosts/default.conf
 
 # gitkeep

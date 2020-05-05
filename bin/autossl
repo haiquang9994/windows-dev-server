@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+$files = glob('D:\Server\nginx\vhosts\*.conf');
+
+$domains = [];
+
+foreach ($files as $file) {
+    preg_match_all("/server_name ([^\;]*)/", file_get_contents($file), $matchs);
+    $domains = array_merge($domains, array_map(function ($hostname) {
+        return '"' . $hostname . '"';
+    }, array_filter(explode(' ', implode(' ', $matchs[1])), function ($hostname) {
+        return substr($hostname, '-3') === '.lc';
+    })));
+}
+
+$cmd = 'mkcert -key-file D:/Server/nginx/ssl/localhost.key -cert-file D:/Server/nginx/ssl/localhost.crt "127.0.0.1" "localhost" ' . implode(' ', $domains);
+
+shell_exec('mkcert -uninstall');
+shell_exec('mkcert -install');
+shell_exec($cmd);

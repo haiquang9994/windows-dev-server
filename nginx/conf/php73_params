@@ -1,0 +1,3 @@
+include php_params;
+
+fastcgi_pass php_farm;

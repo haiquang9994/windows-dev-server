@@ -32,7 +32,10 @@ nssm install redis "C:\Users\light\scoop\apps\redis\current\redis-server.exe"
 
 [mysql.zip](https://drive.google.com/file/d/1oVDQIUKz8X279kcQ8E5lyDkaPGTtxz5f/view?usp=sharing)
 ```
-mysqld --initialize --init-file=D:\Server\mysql\init.txt &&
+mysqld --initialize --init-file=D:\Server\mysql\init.txt
+```
+### PowerShell as administrator
+```
 mysqld --install MySQL --defaults-file=D:\Server\mysql\my.cnf
 ```
 
