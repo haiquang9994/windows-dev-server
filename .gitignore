@@ -1,6 +1,9 @@
 # .ssh
 .ssh/*
 
+# acrylic
+acrylic/AcrylicCache.dat
+
 # mysql
 mysql
 
