@@ -1,3 +1,5 @@
+export PS1="\[\e[1;31m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[1;33m\]\h\[\e[m\] \[\e[36m\]\w\[\e[m\]\[\e[35m\]`__git_ps1`\[\033[0m\]\n$ "
+
 # Start SSH Agent
 #----------------------------
 
@@ -39,8 +41,7 @@ alias fn="cd /d/Server/nginx/vhosts"
 alias fw="cd /d/Developer/www"
 alias comi="composer install -vvv --prefer-dist"
 alias comu="composer update -vvv --prefer-dist"
-# alias ls="ls --color -hX"
-alias ls="ls --color=auto"
+alias ls="ls --color -hX"
 alias l="ls"
 alias ll="l -al"
 alias cmd="cmd.exe"
