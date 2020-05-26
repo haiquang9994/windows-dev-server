@@ -7,6 +7,9 @@ acrylic/AcrylicCache.dat
 # mysql
 mysql
 
+# mongodb
+mongodb
+
 # nginx
 nginx/logs/*
 nginx/temp/*

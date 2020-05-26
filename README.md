@@ -59,3 +59,10 @@ git config --global user.email "haiquang9994@gmail.com"
 
 ## Install VSCode
 [VSCode](https://code.visualstudio.com/download)
+
+## Install MongoDB
+[mongodb.zip](https://drive.google.com/open?id=14TsG9y0nKJJ0aYR6AgYZsSiSIq-12r0X)
+### PowerShell as administrator
+```
+mongod --dbpath=D:\Server\mongodb --logpath=D:\Server\mongodb\log.txt --install
+```
