@@ -28,6 +28,10 @@ nssm install redis "C:\Users\light\scoop\apps\redis\current\redis-server.exe"
 
 ```
 
+```
+nssm install nginx "C:\Users\light\scoop\shims\nginx.exe" "-p C:/Users/light/scoop/persist/nginx"
+```
+
 ## Install Mysql
 
 [mysql.zip](https://drive.google.com/file/d/1oVDQIUKz8X279kcQ8E5lyDkaPGTtxz5f/view?usp=sharing)
