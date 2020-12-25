@@ -15,7 +15,7 @@ nginx/logs/*
 nginx/temp/*
 nginx/vhosts/*
 nginx/ssl/*
-!nginx/vhosts/default.conf
+!nginx/vhosts/_.conf
 
 # gitkeep
 !.gitkeep
